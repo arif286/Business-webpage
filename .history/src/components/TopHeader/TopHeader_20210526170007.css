@@ -1,0 +1,16 @@
+.header-top {
+  padding-left: 77px;
+  border-bottom: 2px solid #eeeeee;
+}
+.header-top-icon a {
+  width: 30px;
+  height: 30px;
+  background: #211f20;
+  display: inline-block;
+  border-radius: 34px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 29px;
+  text-decoration: none;
+}

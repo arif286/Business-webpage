@@ -11,7 +11,7 @@ const MainHeader = () => {
           <Navbar.Brand href="#home">{Bars}</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Insights</Nav.Link>
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">

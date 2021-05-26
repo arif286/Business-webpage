@@ -14,19 +14,27 @@ const TopHeader = () => {
         <div className="container-fluid">
           <Row>
             <Col lg={12}>
-              <div className="d-flex align-items-center justify-content-between">
-                <div className="header-top-icon">
-                  <a href="#h">{Facebook}</a>
-                  <a href="#h">{Instagram}</a>
-                  <a href="#h">{Twitter}</a>
-                  <a href="#h">{LinkedIn}</a>
-                </div>
-                <div className='header-top-text'>
-                  <p>The Analyst syndicate</p>
-                </div>
-                <div className="header-top-btn">
-                  <a href='#l'>Let's Talk</a>
-                </div>
+              <div className='d-flex align-items-center justify-content-between'>
+                <ul className="d-flex list-unstyled social-list">
+                  <li>
+                    <a href="#h">{Facebook}</a>
+                  </li>
+                  <li>
+                    <a href="#h">{Instagram}</a>
+                  </li>
+                  <li>
+                    <a href="#h">{Twitter}</a>
+                  </li>
+                  <li>
+                    <a href="#h">{LinkedIn}</a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>The Analyst syndicate</h3>
+              </div>
+              <div>
+                <button>Let's Talk</button>
               </div>
             </Col>
           </Row>

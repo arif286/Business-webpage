@@ -11,23 +11,29 @@ const TopHeader = () => {
     const LinkedIn = <FontAwesomeIcon icon={faLinkedin} />;
     return (
       <div className="header-top">
-        <div className="container-fluid">
+        <div className='container-fluid'>
           <Row>
-            <Col lg={12}>
-              <div className="d-flex align-items-center justify-content-between">
-                <div className="header-top-icon">
+            <Col>
+              <ul className="d-flex list-unstyled social-list">
+                <li>
                   <a href="#h">{Facebook}</a>
+                </li>
+                <li>
                   <a href="#h">{Instagram}</a>
+                </li>
+                <li>
                   <a href="#h">{Twitter}</a>
+                </li>
+                <li>
                   <a href="#h">{LinkedIn}</a>
-                </div>
-                <div className='header-top-text'>
-                  <p>The Analyst syndicate</p>
-                </div>
-                <div className="header-top-btn">
-                  <a href='#l'>Let's Talk</a>
-                </div>
-              </div>
+                </li>
+              </ul>
+            </Col>
+            <Col>
+              <h3>The Analyst syndicate</h3>
+            </Col>
+            <Col>
+              <button>Let's Talk</button>
             </Col>
           </Row>
         </div>

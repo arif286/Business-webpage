@@ -1,7 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import './MainHeader.css';
 const MainHeader = () => {
     const Bars = <FontAwesomeIcon icon={faBars} />;
@@ -14,7 +14,7 @@ const MainHeader = () => {
             <Nav className="mr-auto">
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#link">Insights</Nav.Link>
-              {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   Another action
@@ -26,7 +26,7 @@ const MainHeader = () => {
                 <NavDropdown.Item href="#action/3.4">
                   Separated link
                 </NavDropdown.Item>
-              </NavDropdown> */}
+              </NavDropdown>
               <Nav.Link href="#link">Services</Nav.Link>
               <Nav.Link href="#link">Community</Nav.Link>
               <Nav.Link href="#link">Events</Nav.Link>

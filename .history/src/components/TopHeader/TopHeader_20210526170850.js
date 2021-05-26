@@ -14,15 +14,15 @@ const TopHeader = () => {
         <div className="container-fluid">
           <Row>
             <Col lg={12}>
-              <div className="d-flex align-items-center justify-content-between">
+              <div className="d-flex align-items-center justify-content-between header-top-icon">
                 <div className="header-top-icon">
                   <a href="#h">{Facebook}</a>
                   <a href="#h">{Instagram}</a>
                   <a href="#h">{Twitter}</a>
                   <a href="#h">{LinkedIn}</a>
                 </div>
-                <div className='header-top-text'>
-                  <p>The Analyst syndicate</p>
+                <div header-top-text>
+                  <h3>The Analyst syndicate</h3>
                 </div>
                 <div className="header-top-btn">
                   <a href='#l'>Let's Talk</a>

@@ -21,7 +21,7 @@ const TopHeader = () => {
                   <a href="#h">{Twitter}</a>
                   <a href="#h">{LinkedIn}</a>
                 </div>
-                <div className='header-top-text'>
+                <div header-top-text>
                   <p>The Analyst syndicate</p>
                 </div>
                 <div className="header-top-btn">

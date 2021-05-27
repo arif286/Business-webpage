@@ -83,7 +83,7 @@
     font-size: 21px;
   }
   .event-area {
-    height: 800px;
+    height: 840px;
   }
 }
 
@@ -114,11 +114,6 @@
   }
   .event-area {
     height: auto;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .event-area {
-    height: 720px;
   }
 }
 

@@ -1,0 +1,13 @@
+@media (min-width: 992px) and (max-width: 1200px) {
+  .single-feature-box {
+    margin-top: 40px;
+    display: block;
+  }
+}
+.single-feature-box {
+  display: flex;
+  align-items: center;
+  padding-bottom: 33px;
+  margin-bottom: 33px;
+  border-bottom: 2px solid #efefef;
+}

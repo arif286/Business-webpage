@@ -1,0 +1,92 @@
+.connect-area {
+  background-image: url(../../Images/conect-bg.png);
+  padding-top: 170px;
+  padding-bottom: 100px;
+  background-size: 100% 100%;
+  background-position: center;
+}
+.connect-wrap {
+  text-align: center;
+}
+.connect-wrap h3 {
+  font-size: 52px;
+  color: #000;
+  line-height: 104px;
+  margin: 0;
+}
+.connect-wrap p {
+  font-size: 30px;
+  color: #000;
+  opacity: 0.4;
+  margin-bottom: 60px;
+}
+.connect-wrap a {
+  width: 402px;
+  height: 98px;
+  background: #91c499;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  border: 2px solid transparent;
+  transition: 0.3s;
+  font-size: 38px;
+  font-weight: 700;
+  margin: auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .connect-area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .connect-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .connect-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .connect-wrap a {
+    width: 350px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .connect-wrap h3 {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 0;
+  }
+  .connect-wrap p {
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1800px) {
+  .connect-area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .connect-wrap h3 {
+    font-size: 29px;
+    line-height: 61px;
+  }
+  .connect-wrap p {
+    font-size: 26px;
+    color: #000;
+    opacity: 0.4;
+    margin-bottom: 24px;
+  }
+  .connect-wrap a {
+    width: 338px;
+    height: 67px;
+    font-size: 25px;
+  }
+}

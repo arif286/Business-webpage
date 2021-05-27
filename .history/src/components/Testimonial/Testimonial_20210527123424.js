@@ -40,7 +40,7 @@ const Testimonial = () => {
                 <div className="meet-img text-center">
                   <img src={Image} alt="" />
                 </div>
-                <div className="meet-content text-center pb-5">
+                <div className="meet-content text-center py-3">
                   <h4>Meet Edward, CEO of HappyFoods</h4>
                   <p>
                     “Working with the syndicate involves carefully analysing

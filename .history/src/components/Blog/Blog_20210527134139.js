@@ -5,7 +5,7 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div className="px-5 event-area">
+    <div className="px-5 h-100">
       <h1 className='text-center mt-4 mb-4'>What's new</h1>
       <Row>
         <Col lg={4}>

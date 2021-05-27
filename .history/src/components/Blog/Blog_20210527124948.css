@@ -1,8 +1,3 @@
-.event-area {
-  height: 900px;
-  padding-bottom: 0;
-  background: #fff;
-}
 .single-top p {
   font-size: 20px;
   color: #000;
@@ -45,23 +40,7 @@
   position: absolute;
   bottom: -137px;
 }
-.new-box-wrap h4 {
-  font-size: 32px;
-  color: #000000;
-  line-height: 40px;
-  font-weight: 700;
-}
-.new-box-wrap p {
-  font-size: 20px;
-  line-height: 40px;
-  color: #000000;
-  margin-bottom: 20px;
-}
-.new-box-wrap a {
-  font-size: 28px;
-  color: #000;
-  text-decoration: underline;
-}
+
 @media (min-width: 1440px) and (max-width: 1800px) {
   .event-content-wrap {
     background: #fff;
@@ -69,21 +48,6 @@
     width: 424px;
     position: absolute;
     bottom: -137px;
-  }
-  .new-box-wrap h4 {
-    font-size: 23px;
-    line-height: 28px;
-  }
-  .new-box-wrap p {
-    font-size: 18px;
-    line-height: 32px;
-    margin-bottom: 20px;
-  }
-  .new-box-wrap a {
-    font-size: 21px;
-  }
-  .event-area {
-    height: 800px;
   }
 }
 
@@ -99,26 +63,6 @@
     padding: 20px 20px;
     width: 268px;
     bottom: -137px;
-  }
-  .new-box-wrap h4 {
-    font-size: 19px;
-    line-height: 26px;
-  }
-  .new-box-wrap p {
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 12px;
-  }
-  .new-box-wrap a {
-    font-size: 20px;
-  }
-  .event-area {
-    height: auto;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .event-area {
-    height: 720px;
   }
 }
 
@@ -137,18 +81,6 @@
     bottom: 0;
     margin-top: -78px;
     position: relative;
-  }
-  .new-box-wrap h4 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .new-box-wrap p {
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 12px;
-  }
-  .event-area {
-    height: auto;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -171,17 +103,5 @@
     bottom: 0;
     margin-top: -78px;
     position: relative;
-  }
-  .new-box-wrap h4 {
-    font-size: 20px;
-    line-height: 26px;
-  }
-  .new-box-wrap p {
-    font-size: 18px;
-    line-height: 25px;
-    margin-bottom: 12px;
-  }
-  .event-area {
-    height: auto;
   }
 }

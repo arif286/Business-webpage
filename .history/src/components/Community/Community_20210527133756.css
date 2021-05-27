@@ -9,6 +9,7 @@
 }
 .engage-text {
   height: 560px;
+  /* align-items: end; */
   background-size: 100% 100%;
   background-position: center center;
   padding-left: 50px;

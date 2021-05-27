@@ -82,9 +82,6 @@
   .new-box-wrap a {
     font-size: 21px;
   }
-  .event-area {
-    height: 800px;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -116,11 +113,6 @@
     height: auto;
   }
 }
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .event-area {
-    height: 720px;
-  }
-}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .event-content-wrap {
@@ -146,9 +138,6 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 12px;
-  }
-  .event-area {
-    height: auto;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -180,8 +169,5 @@
     font-size: 18px;
     line-height: 25px;
     margin-bottom: 12px;
-  }
-  .event-area {
-    height: auto;
   }
 }

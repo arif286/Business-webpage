@@ -5,8 +5,8 @@ import "./Blog.css";
 
 const Blog = () => {
   return (
-    <div className="px-5 event-area">
-      <h1 className='text-center mt-4 mb-4'>What's new</h1>
+    <div className="px-5">
+      <h1 className='text-center'>What's new</h1>
       <Row>
         <Col lg={4}>
           <div className="blog-wrap">
@@ -32,7 +32,7 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   </p>
-                  <a href="http">
+                  <a href="#">
                     Read insight
                   </a>
                 </div>
@@ -64,7 +64,7 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   </p>
-                  <a href="http">Read insight</a>
+                  <a href="#">Read insight</a>
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ const Blog = () => {
                     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
                   </p>
-                  <a href="http">Read insight</a>
+                  <a href="#">Read insight</a>
                 </div>
               </div>
             </div>

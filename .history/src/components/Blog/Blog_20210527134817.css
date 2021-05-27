@@ -82,9 +82,6 @@
   .new-box-wrap a {
     font-size: 21px;
   }
-  .event-area {
-    height: 800px;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -114,11 +111,6 @@
   }
   .event-area {
     height: auto;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .event-area {
-    height: 720px;
   }
 }
 

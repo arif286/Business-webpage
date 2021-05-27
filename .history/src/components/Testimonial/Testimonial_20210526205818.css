@@ -1,0 +1,71 @@
+.carousel-bg {
+  background-color: #111111;
+}
+.testi-btn a {
+  width: 308px;
+  height: 61px;
+  color: #000;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #91c499;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.meet-img img {
+  width: 275px;
+  height: 275px;
+  margin-right: 35px;
+}
+.meet-content h4 {
+  font-size: 39px;
+  color: #fff;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+.meet-content p {
+  font-size: 30px;
+  color: #fff;
+  line-height: 50px;
+  margin-bottom: 40px;
+}
+.meet-content a {
+  color: #fff;
+  font-size: 28px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .meet-content h4 {
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 6px;
+  }
+  .meet-content p {
+    font-size: 22px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  .meet-content a {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .meet-content a {
+    font-size: 16px;
+  }
+  .meet-content h4 {
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 6px;
+  }
+  .meet-content p {
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 17px;
+  }
+}

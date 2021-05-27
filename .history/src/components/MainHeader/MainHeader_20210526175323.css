@@ -1,0 +1,15 @@
+.engage-text p {
+  margin: 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  max-width: 400px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .engage-text p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

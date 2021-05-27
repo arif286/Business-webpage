@@ -1,0 +1,15 @@
+.single-top p {
+  font-size: 20px;
+  color: #000;
+  opacity: 0.5;
+  line-height: 40px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .single-top p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+}

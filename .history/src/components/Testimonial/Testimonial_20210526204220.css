@@ -1,0 +1,18 @@
+.carousel-bg {
+  background-color: #111111;
+}
+.testi-btn a {
+  width: 308px;
+  height: 61px;
+  color: #000;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #91c499;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}

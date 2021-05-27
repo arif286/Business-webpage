@@ -1,5 +1,4 @@
 import React from 'react';
-import Blog from '../Blog/Blog';
 import Community from '../Community/Community';
 import MainHeader from '../MainHeader/MainHeader';
 import Testimonial from '../Testimonial/Testimonial';
@@ -11,8 +10,7 @@ const Home = () => {
             <TopHeader />
             <MainHeader />
             <Community />
-            <Testimonial />
-            <Blog/>
+            <Testimonial/>
         </>
     );
 };

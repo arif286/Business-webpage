@@ -1,0 +1,36 @@
+.engage-1 {
+  background-image: url(../../Images/e1.png);
+}
+.engage-2 {
+  background-image: url(../../Images/e2.png);
+}
+.engage-3 {
+  background-image: url(../../Images/e3.png);
+}
+.engage-text {
+  height: 560px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  background-size: 100% 100%;
+  background-position: center center;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+.engage-text p {
+  margin: 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  max-width: 400px;
+}
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .engage-text p {
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
+} */

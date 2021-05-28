@@ -1,0 +1,9 @@
+.hero-popup-box {
+  width: 721px;
+  background: #fff;
+  padding: 50px 65px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  z-index: 999;
+}

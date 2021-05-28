@@ -1,0 +1,82 @@
+.event-area {
+  padding-top: 50px;
+  padding-bottom: 190px;
+  background: #f4f5f4;
+}
+.event-img {
+  position: relative;
+}
+.event-img a {
+  width: 165px;
+  height: 43px;
+  background: #00a6fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.content-wrap {
+  position: relative;
+}
+.event-content {
+  background: #fff;
+  padding: 30px 40px;
+  width: 508px;
+  position: absolute;
+  bottom: -137px;
+}
+@media (min-width: 1440px) and (max-width: 1800px) {
+  .event-content {
+    background: #fff;
+    padding: 30px 40px;
+    width: 424px;
+    position: absolute;
+    bottom: -137px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .event-content {
+    padding: 20px 20px;
+    width: 340px;
+    bottom: -137px;
+    background: #fff;
+    position: absolute;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .event-content {
+    padding: 20px 20px;
+    width: 268px;
+    bottom: -137px;
+    background: #fff;
+    position: absolute;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .event-content {
+    padding: 20px 20px;
+    width: 460px;
+    bottom: -137px;
+    position: relative;
+    bottom: 0;
+    margin-top: -55px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .event-content {
+    padding: 20px 20px;
+    width: 300px;
+    bottom: -137px;
+    position: relative;
+    bottom: 0;
+    margin-top: -55px;
+  }
+}

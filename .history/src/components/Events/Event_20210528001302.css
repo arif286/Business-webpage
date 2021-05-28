@@ -1,0 +1,16 @@
+.ig-btn {
+  width: 165px;
+  height: 43px;
+  background: #00a6fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}

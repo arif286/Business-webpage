@@ -5,7 +5,6 @@ import Contact from '../Contact/Contact';
 import Events from '../Events/Events';
 import Featured from '../Featured/Featured';
 import Footer from '../Footer/Footer';
-import MainContent from '../MainContent/MainContent';
 import MainHeader from '../MainHeader/MainHeader';
 import Testimonial from '../Testimonial/Testimonial';
 import TopHeader from '../TopHeader/TopHeader';
@@ -15,7 +14,6 @@ const Home = () => {
         <>
             <TopHeader />
             <MainHeader />
-            <MainContent/>
             <Community />
             <Testimonial />
             <Blog />

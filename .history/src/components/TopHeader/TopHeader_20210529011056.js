@@ -17,7 +17,7 @@ const TopHeader = () => {
           <Row>
             <Col lg={12}>
               <div className="d-flex align-items-center justify-content-between">
-                <div className="pop-button">
+                <div class="pop-button">
                   <a
                     type="button"
                     data-toggle="modal"
